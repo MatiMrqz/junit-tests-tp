@@ -1,4 +1,3 @@
-````markdown
 # 🧪 Testing Unitario con JUnit
 
 ## 📘 Descripción del Trabajo Práctico
@@ -10,14 +9,14 @@ El proyecto incluye dos módulos principales:
 - `ConversorTemperatura`
 - `CuentaBancaria`
 
-Cada uno cuenta con su respectiva clase de test desarrollada bajo **JUnit 5 (Jupiter)**.
+Cada uno cuenta con su respectiva clase de test desarrollada bajo **JUnit 6 (Jupiter)**.
 
 ---
 
 ## ⚙️ Requisitos Técnicos
 
 - **JDK:** 8 o superior  
-- **JUnit:** versión 5.7.0 o posterior  
+- **JUnit:** versión 6.0.0 o posterior  
 - **IDE sugerido:** IntelliJ IDEA / Eclipse / NetBeans  
 - **Sistema de construcción:** **Gradle**
 
@@ -32,7 +31,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-````
+```
 
 ---
 
